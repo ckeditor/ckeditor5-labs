@@ -1,0 +1,24 @@
+{
+  "name": "ckeditor5-labs-integrations-webpack-integration-localization",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@ckeditor/ckeditor5-autoformat": "*",
+    "@ckeditor/ckeditor5-core": "*",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "*",
+    "@ckeditor/ckeditor5-editor-classic": "*",
+    "@ckeditor/ckeditor5-presets": "*",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.5.0",
+    "raw-loader": "^0.5.1",
+    "regenerator-runtime": "^0.10.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "build": "rm -rf build && webpack"
+  }
+}
