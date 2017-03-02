@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CKEditor&nbsp;5 Labs – Webpack integration</title>
+	<link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+<body>
+	<header>
+		<div class="header__nav__wrapper">
+			<div class="header__nav__inner">
+				<nav class="header__nav__inner_left">
+					<a href="."><img src="../../assets/img/logo.svg" alt="CKEditor 5" /></a>
+				</nav>
+				<nav class="header__nav__inner_right">
+					<a href="https://github.com/ckeditor/ckeditor5" title="See Project GitHub Page"><img src="../../assets/img/gh.svg" alt="GitHub" />GitHub</a>
+					<a href="http://www.facebook.com/ckeditor" title="Like Us on Facebook">Like Us</a>
+					<a href="http://twitter.com/ckeditor" title="Follow Us on Twitter">Follow Us</a>
+				</nav>
+			</div>
+		</div>
+
+		<h1>CKEditor&nbsp;5 Labs – Webpack integration</h1>
+	</header>
+
+	<main>
+		<div id="editor">
+			<h2>About CKEditor&nbsp;5</h2>
+
+			<p>This is <a href="https://ckeditor5.github.io">CKEditor&nbsp;5</a>.</p>
+
+			<figure class="image">
+				<img src="../../assets/img/sample.jpg" alt="Autumn fields" />
+			</figure>
+
+			<p>After more than 2 years of building the next generation editor from scratch and closing over 980 tickets, we created a highly <strong>extensible and flexible architecture</strong> which consists of an <strong>amazing editing framework</strong> and <strong>editing solutions</strong> that will be built on top of it.</p>
+
+			<h3>Notes</h3>
+
+			<p><a href="https://ckeditor5.github.io">CKEditor&nbsp;5</a> is <em>under heavy development</em> and this demo is not production-ready software. For example:</p>
+
+			<ul>
+				<li><strong>Only Chrome, Opera and Safari are supported</strong>.</li>
+				<li>Firefox requires enabling the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/onselectionchange">&ldquo;dom.select_events.enabled&rdquo;</a> option.</li>
+				<li><a href="https://github.com/ckeditor/ckeditor5/issues/342">Support for pasting</a> is under development (content filtering is unstable).</li>
+			</ul>
+
+			<p>It has <em>bugs</em> 🐛🐛🐛 that we are aware of &mdash; and that we will be working on in the next few iterations of the project. Stay tuned for some updates soon!</p>
+		</div>
+	</main>
+
+	<footer>
+		<nav>
+			<ul>
+				<li>
+					<a href="https://github.com/ckeditor/ckeditor5" title="Visit Project's GitHub page">
+						<img src="../../assets/img/gh.svg" alt="GitHub" /> CKEditor&nbsp;5 on GitHub
+					</a>
+				</li>
+				<li>
+					<a href="http://www.facebook.com/ckeditor" title="Like Us on Facebook">Like Us</a>
+					/
+					<a href="http://twitter.com/ckeditor" title="Follow Us on Twitter">Follow Us</a>
+				</li>
+			</ul>
+		</nav>
+
+		<p class="copy">Copyright &copy; 2003-2017, <a href="http://cksource.com">CKSource</a> &ndash; Frederico Knabben.
+			All rights reserved.</p>
+	</footer>
+	<script src="./build/app.bundle.js"></script>
+</body>
+</html>
