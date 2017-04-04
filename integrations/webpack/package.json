@@ -1,10 +1,8 @@
 {
-  "name": "ckeditor5-labs-integrations-webpack-integration-localization",
+  "name": "ckeditor5-labs-integrations-webpack",
   "version": "1.0.0",
   "devDependencies": {
     "@ckeditor/ckeditor5-autoformat": "*",
-    "@ckeditor/ckeditor5-core": "*",
-    "@ckeditor/ckeditor5-dev-webpack-plugin": "*",
     "@ckeditor/ckeditor5-editor-classic": "*",
     "@ckeditor/ckeditor5-presets": "*",
     "babel-core": "^6.22.1",

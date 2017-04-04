@@ -1,5 +1,5 @@
 {
-  "name": "ckeditor5-labs-integrations-webpack-integration-extract-assets",
+  "name": "ckeditor5-labs-integrations-webpack-extract-assets",
   "version": "1.0.0",
   "devDependencies": {
     "@ckeditor/ckeditor5-autoformat": "*",

@@ -1,0 +1,7 @@
+{
+  "name": "ckeditor5-labs-integrations-build-classic",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@ckeditor/ckeditor5-build-classic": "*"
+  }
+}
