@@ -13,7 +13,7 @@ ClassicEditor.create( document.querySelector( '#editor' ), {
 		Autoformat,
 		ArticlePreset
 	],
-	toolbar: [ 'headings', 'bold', 'italic', 'link', 'unlink', 'bulletedList', 'numberedList', 'undo', 'redo' ]
+	toolbar: [ 'headings', 'bold', 'italic', 'link', 'unlink', 'bulletedList', 'numberedList', 'blockQuote', 'undo', 'redo' ]
 } )
 .then( function( editor ) {
 	window.editor = editor;
